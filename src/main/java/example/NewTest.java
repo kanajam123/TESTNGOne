@@ -22,7 +22,7 @@ public class NewTest {
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirect"));
-		logger.info("FDTestApp.One.Pass");
+		logger.info("FDTestApp:One:Pass");
 		logger.info("FDTestApp.One.Ended");
 	}
 
@@ -33,7 +33,7 @@ public class NewTest {
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirect"));
-		logger.info("FDTestApp.Two.Pass");
+		logger.info("FDTestApp:Two:Pass");
 		logger.info("FDTestApp.Two.Ended");
 	}
 	
@@ -55,7 +55,7 @@ public class NewTest {
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirect"));
-		logger.info("FDTestApp.Four.Pass");
+		logger.info("FDTestApp:Four:Pass");
 		logger.info("FDTestApp.Four.Ended");
 	}
 		
@@ -66,7 +66,7 @@ public class NewTest {
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirect"));
-		logger.info("FDTestApp.Five.Pass");
+		logger.info("FDTestApp:Five:Pass");
 		logger.info("FDTestApp.Five.Ended");
 	}
 	
@@ -78,7 +78,7 @@ public class NewTest {
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirect"));
-		logger.info("FDTestApp.Six.Pass");
+		logger.info("FDTestApp:Six:Pass");
 		logger.info("FDTestApp.six.Ended");
 	}
 	
@@ -89,7 +89,7 @@ public class NewTest {
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirect"));
-		logger.info("FDTestApp.Seven.Pass ");
+		logger.info("FDTestApp:Seven:Pass ");
 		logger.info("FDTestApp.seven.Ended");
 	}
 	
@@ -100,7 +100,7 @@ public class NewTest {
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirect"));
-		logger.info("FDTestApp.Eight.Pass");
+		logger.info("FDTestApp:Eight:Pass");
 		logger.info("FDTestApp.Eight.Ended");
 	}
 	
@@ -112,7 +112,7 @@ public class NewTest {
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirect"));
-		logger.info("FDTestApp.Nine.Pass");
+		logger.info("FDTestApp:Nine:Pass");
 		logger.info("FDTestApp.Nine.Ended");
 	}
 	
@@ -123,7 +123,7 @@ public class NewTest {
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirect"));
-		logger.info("FDTestApp.Ten.Failures");
+		logger.info("FDTestApp:Ten:Failures");
 		logger.info("FDTestApp.Ten.Ended");
 	}
 	
@@ -134,7 +134,7 @@ public class NewTest {
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirectOne"));
-		logger.info("FDTestApp.Eleven.Failures");
+		logger.info("FDTestApp:Eleven:Failures");
 		logger.info("FDTestApp.Eleven.Ended");
 	}
 	
@@ -145,7 +145,7 @@ public class NewTest {
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirectOne"));
-		logger.info("FDTestApp.Twelve.Failures");
+		logger.info("FDTestApp:Twelve:Failures");
 		logger.info("FDTestApp.Twelve.Ended");
 	}
 	
