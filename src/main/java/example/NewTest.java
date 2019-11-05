@@ -153,7 +153,7 @@ public class NewTest {
 	public void beforeTestChrome() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Jenkins\\workspace\\Check\\chromedriver.exe");
 		DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-		// capabilities.setCapability("marionette", true);
+				// capabilities.setCapability("marionette", true);
 		driver = new ChromeDriver(capabilities);
 
 	}
