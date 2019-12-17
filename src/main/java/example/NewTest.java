@@ -45,7 +45,7 @@ public class NewTest {
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirect"));
 		logger.info("FDTestApp.Three.Pass");
-		logger.info("FDTestApp.Three. Ended");
+		logger.info("FDTestApp.Three.Ended");
 	}
 	
 	@Test
