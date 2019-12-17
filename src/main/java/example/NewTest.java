@@ -123,7 +123,7 @@ public class NewTest {
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirect"));
-		logger.info("FDTestApp:Ten:Pass");
+		logger.info("FDTestApp:Ten:Failures");
 		logger.info("FDTestApp.Ten.Ended");
 	}
 	
@@ -145,7 +145,7 @@ public class NewTest {
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirectOne"));
-		logger.info("FDTestApp:Twelve:Failures");
+		logger.info("FDTestApp:Twelve:Pass");
 		logger.info("FDTestApp.Twelve.Ended");
 	}
 	
