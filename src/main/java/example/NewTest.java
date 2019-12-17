@@ -112,7 +112,7 @@ public class NewTest {
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
 		AssertJUnit.assertTrue(title.contains("FordDirect"));
-		logger.info("FDTestApp:Nine:Pass");
+		logger.info("FDTestApp:Nine:Failures");
 		logger.info("FDTestApp.Nine.Ended");
 	}
 	
@@ -125,28 +125,6 @@ public class NewTest {
 		AssertJUnit.assertTrue(title.contains("FordDirect"));
 		logger.info("FDTestApp:Ten:Failures");
 		logger.info("FDTestApp.Ten.Ended");
-	}
-	
-	@Test
-	public void testEasyEleven() {
-		PropertyConfigurator.configure("log4j.properties");
-		logger.info("FDTestApp.Eleven.Started");
-		driver.get("https://www.forddirect.com/");
-		String title = driver.getTitle();
-		AssertJUnit.assertTrue(title.contains("FordDirectOne"));
-		logger.info("FDTestApp:Eleven:Failures");
-		logger.info("FDTestApp.Eleven.Ended");
-	}
-	
-	@Test
-	public void testEasyTwelve() {
-		PropertyConfigurator.configure("log4j.properties");
-		logger.info("FDTestApp.Twelve.Started");
-		driver.get("https://www.forddirect.com/");
-		String title = driver.getTitle();
-		AssertJUnit.assertTrue(title.contains("FordDirectOne"));
-		logger.info("FDTestApp:Twelve:Pass");
-		logger.info("FDTestApp.Twelve.Ended");
 	}
 	
 	@BeforeTest
