@@ -65,7 +65,7 @@ public class NewTest {
 		logger.info("FDTestApp.Five.Started");
 		driver.get("https://www.forddirect.com/");
 		String title = driver.getTitle();
-		AssertJUnit.assertTrue(title.contains("FordDirect"));
+		AssertJUnit.assertTrue(title.contains("FordDirect1"));
 		logger.info("FDTestApp:Five:Pass");
 		logger.info("FDTestApp.Five.Ended");
 	}
